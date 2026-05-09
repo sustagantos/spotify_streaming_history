@@ -3,6 +3,7 @@
 Analyses your complete Spotify extended streaming history and generates a markdown report with listening insights.
 
 ## Setup
+Get your Spotify Streaming History data from https://www.spotify.com/br-pt/account/privacy/
 
 ```bash
 pip install -r requirements.txt
@@ -10,7 +11,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Place your Spotify JSON history files (e.g. `endsong_0.json`, `endsong_1.json`, …) in the `data/` directory.
+1. Place your Spotify JSON history files (e.g. `Streaming_History_Audio_2022.json`, `Streaming_History_Video_2022.json`, …) in the `data/` directory.
 2. Run the analyser:
 
 ```bash
